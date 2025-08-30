@@ -24,10 +24,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="/">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Productos</a>
+                        <a class="nav-link" href="/productos">Productos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Galería</a>
@@ -42,6 +42,8 @@
             </div>
         </div>
     </nav>
+
+    
 
     <div class="container my-4">
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel"
