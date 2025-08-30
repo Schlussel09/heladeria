@@ -1,0 +1,158 @@
+/* ===================================== */
+/* ESTILOS GENERALES Y DEL CUERPO */
+/* ===================================== */
+body {
+    background-image: linear-gradient(to bottom, #3498db, #3ce7ae);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+/* ===================================== */
+/* ESTILOS DE LA BARRA DE NAVEGACIÓN */
+/* ===================================== */
+.navbar {
+    background-image: linear-gradient(to right, #b43e71, #b4567f);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-brand img {
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.05);
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 80px;
+}
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px 20px !important;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #a4cdf8;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* ===================================== */
+/* ESTILOS DEL CARRUSEL */
+/* ===================================== */
+.carousel-item .row {
+    padding: 20px;
+}
+
+.carousel-item img {
+    max-height: 400px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.carousel-control-prev {
+    color: black;
+}
+
+/* ===================================== */
+/* ESTILOS DE LAS TARJETAS (CARDS) */
+/* ===================================== */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* ===================================== */
+/* ESTILOS DE BOTONES */
+/* ===================================== */
+.btn-primary {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #c0392b;
+    transform: scale(1.05);
+}
+
+/* ===================================== */
+/* ESTILOS DEL PIE DE PÁGINA (FOOTER) */
+/* ===================================== */
+/* Custom styles for the footer */
+.footer-section {
+    background-image: linear-gradient(to right, #b43e71, #b4567f);
+    color: #f8f9fa;
+    /* Light text color for contrast */
+}
+
+/* Style for the information items */
+.footer-content {
+    margin-bottom: 1rem;
+}
+
+.info-item {
+    transition: transform 0.3s ease;
+    /* Add a subtle hover effect */
+}
+
+.info-item:hover {
+    transform: translateY(-3px);
+}
+
+/* Style for the icons */
+.footer-section i {
+    font-size: 1.25rem;
+    /* Larger icons */
+    color: #f8f9fa;
+    transition: color 0.3s ease;
+    /* Smooth color transition on hover */
+}
+
+/* Style for the social icons and their hover effect */
+.social-icons a {
+    color: #f8f9fa;
+    transition: color 0.3s ease, transform 0.3s ease;
+    font-size: 1.5rem;
+    /* Larger social icons for better visibility */
+}
+
+.social-icons a:hover {
+    color: #17a2b8;
+    /* Change color on hover, e.g., to a brand color */
+    transform: translateY(-3px);
+}
+
+/* Adjustments for smaller screens */
+@media (min-width: 768px) {
+    .footer-content {
+        justify-content: flex-start;
+        /* Align content to the left on larger screens */
+    }
+}
