@@ -33,7 +33,7 @@
                         <a class="nav-link" href="#">Galería</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Nosotross</a>
+                        <a class="nav-link" href="#">Nosotros</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contactenos</a>
